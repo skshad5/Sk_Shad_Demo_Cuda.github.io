@@ -1,6 +1,10 @@
 
 @media only  screen and (max-width: 1200px){
 
+	
+
+
+
 	header {
 
 		height: 65vh;
@@ -9,6 +13,18 @@
 	.hero-text-box h1{
 		font-size: 2.5rem;
 	}
+
+
+	.row{
+		margin: 0;
+		padding: 2rem;
+	}
+
+	body{
+		margin: 0;
+		display: block;
+	}
+
 
 }
 
@@ -20,6 +36,10 @@
 {
 
 
+
+	.row{
+		padding: 1rem;
+	}
 
 
 	.mobile-menu span{
@@ -70,6 +90,20 @@
 
 @media only screen and (max-width: 980px){
 
+
+
+
+	.row{
+
+		margin: 0;
+	}
+
+
+	.sticky{
+		padding: 1.5rem;
+	}
+
+
 	.span_1_of_4{
 		width: 49.2%;
 	}
@@ -96,6 +130,20 @@
 
 @media only screen and (max-width: 768px){
 
+	html{
+		font-size: 70%;
+	}
+	
+
+	.row{
+		margin-left: 0;
+	}
+
+	.sticky{
+		padding: 2rem;
+	}
+
+
 	.little-description{
 		width: 100%;
 		margin-left: 0;
@@ -116,7 +164,11 @@
 @media only screen and (max-width: 480px){
 
 	.row {
-    margin: 0 15px;
+    margin: 0;
+}
+
+.sticky{
+	padding: 1rem;
 }
 
 	.services-section h2{
@@ -159,6 +211,10 @@
 	.testimonial h2{
 		font-size: 1.5rem;
 	}
+
+	.testimonial .row .span_1_of_2{
+		width: 100%;
+	}
 	.contact-section h2{
 		font-size: 2rem;
 	}
@@ -172,3 +228,46 @@
 
 
 	}
+
+
+@media (max-width: 320px) {
+
+	html{
+		font-size: 40%;
+	}
+
+	.row{
+		margin: 0;
+	}
+
+	.sticky{
+		padding: 1rem;
+	}
+	
+	.testimonial .row .span_1_of_2{
+		width: 100%;
+	}
+}
+
+
+
+
+
+@media (max-width: 280px) {
+
+	html{
+		font-size: 35%;
+	}
+
+	.row{
+		margin: 0;
+	}
+
+	.sticky{
+		padding: 1rem;
+	}
+	
+	.testimonial .row .span_1_of_2{
+		width: 100%;
+	}
+}
