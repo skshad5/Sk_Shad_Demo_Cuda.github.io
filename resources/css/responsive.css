@@ -1,0 +1,174 @@
+
+@media only  screen and (max-width: 1200px){
+
+	header {
+
+		height: 65vh;
+	}
+
+	.hero-text-box h1{
+		font-size: 2.5rem;
+	}
+
+}
+
+
+
+
+
+@media only  screen and (max-width: 1024px)
+{
+
+
+
+
+	.mobile-menu span{
+		display: block;
+	}
+
+	header{
+		height: 55vh;
+	}
+
+
+	.hero-text-box{
+		width: 90%;
+	}
+
+	.main-nav {
+
+		display: none;
+	}
+	html{
+		font-size: 57.5%;
+	}
+
+	.client-photo{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.client-review{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.contact-section form{
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.testimonial .col:nth-child(3) {
+    margin-left: 0;
+}
+.testimonial .row .span_1_of_2 {
+    width: 44.2%;
+    }
+
+}
+
+@media only screen and (max-width: 980px){
+
+	.span_1_of_4{
+		width: 49.2%;
+	}
+	.span_1_of_4:nth-child(3){
+		margin-left: 0;
+	}
+	.box{
+		padding: 0;
+	}
+	.testimonial .row .box{
+		padding: 0;
+		margin-left: 0;
+		width: 49.2%;
+		display: -webkit-inline-box;
+		display: -ms-inline-flexbox;
+		display: inline-flex;
+	}
+
+	html{
+		font-size: 62.5%;
+
+	}
+}
+
+@media only screen and (max-width: 768px){
+
+	.little-description{
+		width: 100%;
+		margin-left: 0;
+	}
+	h1{
+		font-size: 3.1rem;
+	}
+	.team-section .row .box{
+		width: 100%;
+	}
+
+	.footer-section ul li{
+		padding: 1rem;
+	}
+
+}
+
+@media only screen and (max-width: 480px){
+
+	.row {
+    margin: 0 15px;
+}
+
+	.services-section h2{
+
+		font-size: 3rem;
+	}
+	.services-section p{
+		font-size: 2.5rem;
+	}
+
+	.services-section .row .box{
+		width: 100%;
+	}
+
+	.team-section .row .box{
+		width: 100%;
+	}
+
+	.team-section p{
+		font-size: 2.5rem;
+	}
+	.social-link{
+		margin-top: 0;
+	}
+
+	.portfolio-section h2{
+		font-size: 2rem;
+	}
+
+	.portfolio-section .row .portfolio-filter{
+    margin: 0;
+    width: 100%;
+    display: inline-grid;
+	}
+
+	.portfolio-section .row .span_1_of_2{
+		width: 100%;
+	}
+
+	.testimonial h2{
+		font-size: 1.5rem;
+	}
+	.contact-section h2{
+		font-size: 2rem;
+	}
+	.contact-section p{
+		font-size: 1.4rem;
+	}
+	.footer-section ul li a{
+		font-size: 1.5rem;
+		margin: 1rem 1rem;
+	}
+
+
+	}
